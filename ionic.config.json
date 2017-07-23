@@ -1,5 +1,8 @@
 {
   "name": "tedclone",
-  "app_id": "",
-  "type": "ionic1"
+  "app_id": "1db0d49a",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
 }

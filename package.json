@@ -1,13 +1,24 @@
 {
-  "name": "tedclone",
-  "version": "0.0.1",
-  "description": "An Ionic project",
-  "devDependencies": {
-    "@ionic/cli-plugin-gulp": "1.0.2",
-    "@ionic/cli-plugin-ionic1": "2.0.1",
-    "gulp": "^3.5.6",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^3.1.0"
-  }
+    "name": "tedclone",
+    "version": "0.0.1",
+    "description": "An Ionic project",
+    "devDependencies": {
+        "@ionic/cli-plugin-cordova": "1.4.1",
+        "@ionic/cli-plugin-gulp": "1.0.2",
+        "@ionic/cli-plugin-ionic1": "2.0.1",
+        "gulp": "^3.5.6",
+        "gulp-clean-css": "^3.7.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^3.1.0"
+    },
+    "dependencies": {
+        "cordova-plugin-inappbrowser": "^1.7.1",
+        "cordova-plugin-x-socialsharing": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-x-socialsharing": {}
+        }
+    }
 }
